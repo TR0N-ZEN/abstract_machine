@@ -1,4 +1,4 @@
-class Input extends Memory
+class FIFO_stack extends Memory
 {
 	constructor() { super(); }
 	push(z) { this.values.push(z); }

@@ -2,7 +2,6 @@ class Machine
 {
 	constructor(orderCounter, memories=undefined)
 	{
-		this = new Object();
 		this["orderCounter"] = 1;
 		if (memories!=undefined)
 		{
