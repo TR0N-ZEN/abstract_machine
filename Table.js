@@ -19,4 +19,4 @@ class Table
 		if (v!=undefined) { return v; }
 		else {	throw new Error("Identifier not found in table."); }
 	}
-}
+} // module.exports.Table = Table;

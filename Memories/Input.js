@@ -1,3 +1,5 @@
+//const Memory = require('../Memory');
+
 class Input extends Memory
 {
 	constructor() { super(); }
@@ -10,4 +12,4 @@ class Input extends Memory
 		}
 		return first;
 	}
-}
+} //module.exports.Input = Input;
